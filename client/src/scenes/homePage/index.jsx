@@ -32,7 +32,7 @@ const HomePage = () => {
         >
           <MyPostWidget picturePath={picturePath} />
           <PostsWidget userId={_id} />
-        </Box>
+        </Box>  
         {isNonMobileScreens && (
           <Box flexBasis="26%">
             <AdvertWidget />
