@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://mern-social-media-website-api.vercel.app/assets/sponser.jpg"
+        src="http://localhost:3001/assets/sponser.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
@@ -42,7 +42,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://mern-social-media-website-api.vercel.app/assets/tutorials.png"
+        src="http://localhost:3001/assets/tutorials.png"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
@@ -64,7 +64,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://mern-social-media-website-api.vercel.app/assets/mamaearth.png"
+        src="http://localhost:3001/assets/mamaearth.png"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>

@@ -29,19 +29,12 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
-app.use(cors(
-  {
-    origin: ["https://mern-social-media-website-frontend.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true,
-  }
-));
+app.use(cors());
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 
 
 
-mongoose.connect(' mongodb+srv://projectsmail:project100@cluster0.so1sjyw.mongodb.net/test?retryWrites=true&w=majority')
 /* FILE STORAGE */
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
