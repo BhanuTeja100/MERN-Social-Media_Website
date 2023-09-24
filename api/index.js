@@ -31,7 +31,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors(
   {
-    origin: ["https://mern-social-media-website-hb9s.vercel.app/"],
+    origin: ["https://mern-social-media-website.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true,
   }
